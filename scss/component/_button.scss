@@ -1,48 +1,31 @@
+
 .btn {
-    margin-top: 15px;
-    width: 100%;
-    color: #fff;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px;
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
 
-  }
-  
-  .default {
-    background-color: #51ddfc;
-  }
-  
-  .error {
-    background-color: #e4757a;
-  }
-  
-  .info {
-    background-color: #927bc1;
-  }
-  
-  .success {
-    background-color: #63cc82;
-  }
-  
-  .warning {
-    background-color: #fd7856;
-  }
-  
-  
+.default {
+  background-color: #51ddfc;
+}
 
+.error {
+  background-color: #e4757a;
+}
 
-  @media (min-width: $tablet-media-size){
-    .btn {
-        padding: 10px 30px;
-    }
+.info {
+  background-color: #927bc1;
+}
 
-    .test{
-      padding:0px;
-    }
-    
-    .btn + .btn {
-        margin-left: 10px;
-    }
+.success {
+  background-color: #63cc82;
+}
 
-  }
+.warning {
+  background-color: #fd7856;
+}
+
