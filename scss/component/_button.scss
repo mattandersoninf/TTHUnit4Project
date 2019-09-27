@@ -6,6 +6,7 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+
   }
   
   .default {
@@ -28,10 +29,16 @@
     background-color: #fd7856;
   }
   
+  
 
-  @media (min-width: 768px){
+
+  @media (min-width: $tablet-media-size){
     .btn {
         padding: 10px 30px;
+    }
+
+    .test{
+      padding:0px;
     }
     
     .btn + .btn {
