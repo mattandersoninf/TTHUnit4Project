@@ -1,11 +1,1 @@
-@import 'base/index';
-@import 'component/index';
-@import 'utilities/index';
-
-$base-color: #58e1c1; 
-$nav-btn-color: #fff;
-$theme-1-color: #927bc1;
-$theme-2-color: #fd7856;
-$theme-11-color: #51ddfc;
-
-$tablet-media-size: 768px;
+@import 'base/index', 'component/index', 'utilities/index';

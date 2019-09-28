@@ -1,31 +1,37 @@
+$default-color:#51ddfc;
+$error-color:#e4757a;
+$info-color:#927bc1;
+$success-color:#63cc82;
+$warning-color:#fd7856;
+$button-color:#fff;
+$tablet-screen: "screen and (min-width:768px)";
 
 .btn {
-  margin-top: 15px;
-  width: 100%;
-  color: #fff;
-  border: none;
-  padding: 10px 0;
-  text-transform: uppercase;
-  border-radius: 5px;
+    margin-top: 15px;
+    width: 100%;
+    color: $button-color;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
 
 .default {
-  background-color: #51ddfc;
+    background-color: $default-color; 
 }
 
 .error {
-  background-color: #e4757a;
+    background-color: $error-color;
 }
 
 .info {
-  background-color: #927bc1;
+    background-color: $info-color;
 }
 
 .success {
-  background-color: #63cc82;
+    background-color: $success-color;
 }
 
 .warning {
-  background-color: #fd7856;
+    background-color: $warning-color;
 }
-
