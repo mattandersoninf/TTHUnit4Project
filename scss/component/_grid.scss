@@ -39,20 +39,16 @@
     }
 }
 
-[class^=col] + [class^=col] {
-    margin-left: $spacing-gutter;
-}
-
 .theme.col-1 {
-    background-color: #927bc1;
+    background-color: $true-v;
 }
 
 .theme.col-2 {
-    background-color: #fd7856;
+    background-color: $coral;
 }
 
 .theme.col-3 {
-    background-color: #deb2ee;
+    background-color: $light-purple;
 }
 
 .theme.col-4 {
@@ -76,15 +72,15 @@
 }
 
 .theme.col-9 {
-    background-color: #e4757a;
+    background-color: $geraldine;
 }
 
 .theme.col-10 {
-    background-color: #63cc82;
+    background-color: $emerald;
 }
 
 .theme.col-11 {
-    background-color: #51ddfc;
+    background-color: $light-cyan;
 }
 
 .theme.col-12 {
@@ -100,5 +96,9 @@
         .col-#{$i}{
             flex-basis: ((100%)/12) * $i;
         }
+    }
+    
+    [class^=col] + [class^=col] {
+        margin-left: $spacing-gutter;
     }
 }
