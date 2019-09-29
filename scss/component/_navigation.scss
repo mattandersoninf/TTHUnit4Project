@@ -22,11 +22,10 @@
     
     @include media-query($tablet){
       flex-basis:100px;
-    } 
-    
-    :hover{  
-      color: #fff;
-      background-color: $turquoise;
-    }
+    }  
+  }
+  &-link:hover{  
+    color: #fff;
+    background-color: $turquoise;
   }
 }

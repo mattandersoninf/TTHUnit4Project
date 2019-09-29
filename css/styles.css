@@ -554,7 +554,7 @@ a {
     flex-basis: 100px;
   }
 }
-.nav-link :hover {
+.nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }
