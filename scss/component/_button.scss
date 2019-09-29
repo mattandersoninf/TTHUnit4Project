@@ -1,37 +1,41 @@
-$default-color:#51ddfc;
-$error-color:#e4757a;
-$info-color:#927bc1;
-$success-color:#63cc82;
-$warning-color:#fd7856;
-$button-color:#fff;
-$tablet-screen: "screen and (min-width:768px)";
-
 .btn {
     margin-top: 15px;
     width: 100%;
-    color: $button-color;
+    color: $white;
     border: none;
-    padding: 10px 0;
+    padding: $spacing-gutter 0;
     text-transform: uppercase;
-    border-radius: 5px;
+    border-radius: $all-border-radius;
+    @include light-on-hover($light-cyan);
+}
+
+.btn + .btn{
+    @include media-query($tablet){
+        margin-left: 10px;
+    }
 }
 
 .default {
-    background-color: $default-color; 
+    background-color: $light-cyan; 
+    @include light-on-hover($light-cyan);
 }
 
 .error {
-    background-color: $error-color;
+    background-color: $geraldine;
+    @include light-on-hover($geraldine);
 }
 
 .info {
-    background-color: $info-color;
+    background-color: $true-v;
+    @include light-on-hover($true-v);
 }
 
 .success {
-    background-color: $success-color;
+    background-color: $emerald;
+    @include light-on-hover($emerald);
 }
 
 .warning {
-    background-color: $warning-color;
+    background-color: $coral;
+    @include light-on-hover($coral);
 }

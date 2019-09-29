@@ -5,10 +5,10 @@
 .input{
     display: block;
     width: 94%;
-    margin: 10px auto 0;
+    margin: $spacing-gutter auto 0;
     border: none;
-    padding: 10px;
-    border-bottom: 5px solid #58e1c1;
+    padding: $spacing-gutter;
+    border-bottom: 5px solid $turquoise;
 }
 
 .hidden {
